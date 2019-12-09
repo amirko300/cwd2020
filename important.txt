@@ -1,0 +1,14 @@
+learn css
+https://css-tricks.com/almanac/
+
+find the right color
+http://paletton.com/
+
+a visual site to understand specificity
+https://specificity.keegan.st/
+
+learn about cascade and inheritance
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+
+learn about selectors
+https://www.w3schools.com/cssref/css_selectors.asp
