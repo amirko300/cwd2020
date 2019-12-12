@@ -1,7 +1,40 @@
+body {
+    background-image: url(/learnCss/background.jpg);
+    background-size: cover;
+}
+
 h2 {
+    color:#AA3939;
+    text-align: center;
+    border: 3px solid rgba(255, 170, 170,0.4);
+    cursor: pointer;
+}
+
+
+p:hover {
+    color: purple;
+}
+ 
+li {
+    list-style: none;
+    display: inline;
+}
+
+.webtext:last-child {
+    border: 2px dashed green;
+}
+
+.active {
     color: red;
 }
 
-p {
-    color: seagreen;
+#div1 {
+    background-color: rgba(0, 0, 255,0.2);
 }
+
+#div2 {
+    background-color: rgba(0, 255, 0,0.2);
+}
+
+
+
