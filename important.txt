@@ -16,3 +16,21 @@ https://www.w3schools.com/cssref/css_selectors.asp
 all the resources you want
 
 https://zero-to-mastery.github.io/resources/
+
+minify css
+https://www.cleancss.com/css-minify/
+
+practice on flex
+http://flexboxfroggy.com/
+
+flex guide
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+css3 browser support
+https://www.w3schools.com/cssref/css3_browsersupport.asp
+
+can i use this
+https://caniuse.com/
+
+which prefix browser to put in my css that css3 will work
+http://shouldiprefix.com/
