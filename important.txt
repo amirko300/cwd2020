@@ -34,3 +34,6 @@ https://caniuse.com/
 
 which prefix browser to put in my css that css3 will work
 http://shouldiprefix.com/
+
+free resorce for landing page with bootstrap
+https://zerotomastery.io/resources/
