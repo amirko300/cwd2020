@@ -1,0 +1,12 @@
+body,html {
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat,sans-serif;
+    background: url(/landingPage1/header.jpg) center center fixed no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #e2dbdb;
+}
