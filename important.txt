@@ -37,3 +37,9 @@ http://shouldiprefix.com/
 
 free resorce for landing page with bootstrap
 https://zerotomastery.io/resources/
+
+great css file to download for animation tricks
+https://daneden.github.io/animate.css/
+
+great design and pages base on bootstrap
+www.https://www.creative-tim.com/
