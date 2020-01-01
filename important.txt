@@ -61,3 +61,6 @@ https://startbootstrap.com/themes/
 
 css grid cheat sheet/
 http://grid.malven.co/
+
+media query
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
