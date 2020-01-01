@@ -6,6 +6,14 @@
     grid-auto-rows: 1fr;
 }
 
+.green {
+    grid-column: span 2;
+    justify-self: end;
+    /*grid row goes with align-self and grid-column with justify-self*/
+    /* grid-row: 1/3; */    
+    /* align-self: end; */
+}
+
 .zone {
     cursor:pointer;
     /* display:inline-block; */
