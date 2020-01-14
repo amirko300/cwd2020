@@ -2,6 +2,9 @@ var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
 var li = document.querySelectorAll("li");
+var deleteButtons = document.querySelectorAll("button");
+
+
 
 function inputLength() {
 	return input.value.length;
@@ -30,6 +33,12 @@ function addDecoration(event) {
 	event.target.classList.toggle("done");
 }
 
+function delLiByButt(event) {
+	console.log("delLiByButt");
+	console.log(event.target.parentNode);
+	event.target.parentNode.removeChild(event.target);
+}
+
 button.addEventListener("click", addListAfterClick);
 
 input.addEventListener("keypress", addListAfterKeypress);
@@ -37,4 +46,10 @@ input.addEventListener("keypress", addListAfterKeypress);
 li.forEach(function (item) {
 	item.addEventListener("click", addDecoration);
 });
+
+deleteButtons.forEach(function (item) {
+	console.log(item);
+	item.addEventListener("click", delLiByButt);
+});
+
 
