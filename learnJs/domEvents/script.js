@@ -2,7 +2,7 @@ var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
 var li = document.querySelectorAll("li");
-var deleteButtons = document.querySelectorAll("button");
+var deleteButtons = document.querySelectorAll("ul button");
 
 
 
@@ -11,9 +11,16 @@ function inputLength() {
 }
 
 function createListElement() {
+	var div = document.createElement("div");
 	var li = document.createElement("li");
+	var button = document.createElement("button");
+	button.appendChild(document.createTextNode("delete me"));
 	li.appendChild(document.createTextNode(input.value));
-	ul.appendChild(li);
+	ul.appendChild(div);
+	div.appendChild(li);
+	div.appendChild(button);
+	button.addEventListener("click", delLiByButt);
+	li.addEventListener("click", addDecoration);
 	input.value = "";
 }
 
@@ -34,9 +41,7 @@ function addDecoration(event) {
 }
 
 function delLiByButt(event) {
-	console.log("delLiByButt");
-	console.log(event.target.parentNode);
-	event.target.parentNode.removeChild(event.target);
+	event.target.parentElement.removeChild(event.target.parentElement.children[0]);
 }
 
 button.addEventListener("click", addListAfterClick);
@@ -48,7 +53,6 @@ li.forEach(function (item) {
 });
 
 deleteButtons.forEach(function (item) {
-	console.log(item);
 	item.addEventListener("click", delLiByButt);
 });
 
