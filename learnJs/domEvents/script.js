@@ -41,7 +41,9 @@ function addDecoration(event) {
 }
 
 function delLiByButt(event) {
-	event.target.parentElement.removeChild(event.target.parentElement.children[0]);
+	event.target.parentElement.parentElement.removeChild(event.target.parentElement);
+	// event.target.parentElement.removeChild(event.target.parentElement.children[0]);
+	// event.target.parentElement.removeChild(event.target.parentElement.children[0]);
 }
 
 button.addEventListener("click", addListAfterClick);
