@@ -59,3 +59,11 @@ const newArray = arrayNum.map((num, i) => {
 //BONUS: create a new list with all user information, but add "!" to the end 
 //of each items they own.
 
+let arr5 = [];
+
+array.forEach(item => {
+  var obj1 = JSON.parse(JSON.stringify(item));
+  obj1.items = obj1.items.map((val) => val + '!');
+  arr5.push(obj1);
+}
+);
